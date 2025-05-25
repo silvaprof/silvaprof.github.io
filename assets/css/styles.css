@@ -1,3 +1,7 @@
+/* Desenvolvido por silvaprof */
+/* silvaprof.github.io */
+
+
         * {
             margin: 0;
             padding: 0;
@@ -19,7 +23,7 @@
 
         /* Terminal */
         .terminal {
-            background-color: rgba(22, 27, 34, 0.85); 
+            background-color: rgba(22, 27, 34, 0.94); 
             border-radius: 8px;
             width: 600px;
             max-width: 90%;

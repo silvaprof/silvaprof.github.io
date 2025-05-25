@@ -1,4 +1,5 @@
-
+// Desenvolvido por silvaprof
+// silvaprof.github.io 
 
 // ----- Funcao  - Escrever na tela ----- //
 function typeWrite(elementId, text, speed = 100, callback) {
