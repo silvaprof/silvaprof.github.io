@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silvaprof - José Eduardo Silva - Projetos</title>
-    <link rel="stylesheet" href="/assets/css/styles.css?v=0.0.10">
+    <link rel="stylesheet" href="assets/css/styles.css?v=0.0.8">
 </head>
 <body>
 
@@ -23,24 +23,59 @@
 
         <div class="terminal-body"></div>
 
-            <div class="saida-comando">
-                <p>root@silvaprof.github.io:~/projetos$ cd /projetos </p>
+        <div class="saida-comando">
+            <p class="linha-comando">root@silvaprof.github.io:~/projetos$ cd /projetos</p>
+            <p class="linha-comando">root@silvaprof.github.io:~/projetos$ nano projetos.txt</p>
+            <center><p><span class="folder">#--PROJETOS OPEN-SOURCE:--#</span></p></center>
+
+            <div class="projeto">
+                <center>
+                <span class="folder">#--PROJETO: Sistema de Tickets---#</span>
                 <br>
-                <p>root@silvaprof.github.io:~/projetos$ ls </p>
+                <span class="folder">#versao:3.0.0#</span>
+                </center>
+                <p>Resumo: Um sistema do tipo PDV com conexão à impressora térmica.</p>
+                <p>Linguagem: python</p> 
+                <p>Recursos: </p>
+                <p>>>> Estoque</p>
+                <p>>>> Caixa</p>
+                <p>>>> Controle e relatórios</p>
+                <p>>>> Impressão e geração de tickets em PDF.</p>
+                <p>   </p>
+
+                <p>   </p>
+                <p>Projeto disponível em: https://github.com.br/silvaprof/</p>
+                <a href="#"> ~ Baixar executável clicando aqui ~</a>
                 <br>
-                <p> OPEN SOURCE:</p>
                 <br>
-                <a href="#"><span class="folder">Sistema de Tickets</span></a>
-                <p>Um sistema do tipo PDV com conexão à impressora térmica.</p>
-                <br>    
-                <a href="#"><span class="folder">Matemática 360 - Mercadinho do Almirante (Simulação de PDV)</span> </a>
-                <p></p>
+                <p>Fotos do projeto:</p>
                 <br>
-                <a href="#"><span class="folder"></span>Matemática 360 - Quiz Matemático</span> </a>
                 <br>
-                <a href="#"><span class="folder"></span>Calculadora de sistemas</span> </a>  
                 <br>
+                <br>
+
+
             </div>
+
+            <div class="projeto">
+                <center>
+                <span class="folder">#--PROJETO: Matemática 360 - PDV---#</span>
+                <br>
+                <span class="folder">#versao:3.0.0#</span>
+                </center>
+                <p>Resumo:Simulação de compras no mercadinho para ensinar matemática financeira.</p>
+                <p>Linguagem: Javascript</p>
+                <p>Fotos do projeto:</p>
+                <center>
+                <img src="assets/mercadinho_1.png" alt="Mercadinho_1" class="foto" onclick="ampliar(this)">
+                <img src="assets/mercadinho_2.png" alt="Mercadinho_2" class="foto" onclick="ampliar(this)">
+                </center>
+                
+            </div>
+
+
+        </div>
+
 
 
             <div class="terminal-header"></div>
@@ -59,6 +94,9 @@
 
     </div>
 
-    <script src="/assets/js/main.js?v=0.0.2"></script>
+    <div id="overlay" onclick="fechar()">
+        <img src="">
+    </div>
+    <script src="assets/js/main.js?v=0.0.5"></script>
 </body>
 </html>

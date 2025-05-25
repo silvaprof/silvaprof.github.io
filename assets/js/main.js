@@ -96,3 +96,19 @@ function animate() {
 }
 
 animate();
+
+
+
+
+
+// ----- Funcao - Ampliar foto ----- //
+function ampliar(imagem) {
+    const overlay = document.getElementById('overlay');
+    const overlayImg = overlay.querySelector('img');
+    overlayImg.src = imagem.src;
+    overlay.style.display = 'flex';
+}
+
+function fechar() {
+    document.getElementById('overlay').style.display = 'none';
+}
