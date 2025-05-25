@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css?v=0.0.1">
 </head>
 <body>
-    <div class="container">
-        <img src="/assets/images/foto.png" alt="Minha Foto">
-        <h1>José Eduardo Silva</h1>
-        <p>Professor de Matemática & Desenvolvedor | Apaixonado por tecnologia | 💻🚀</p>
 
-        <div class="links">
-            <a href="https://github.com/silvaprof" target="_blank">GitHub</a>
-            <a href="#" target="_blank">LinkedIn</a>
-            <a href="mailto:silvaprofessor.rj@gmail.com">Email</a>
-            <a href="#projetos">Projetos</a>
+    <canvas id="background-code"></canvas>
+
+    <div class="terminal">
+
+        <div class="terminal-header">
+            
+            <span class="btn red"></span>
+            <span class="btn yellow"></span>
+            <span class="btn green"></span>
+            <span class="terminal-title">silvaprof@github:~$</span>
         </div>
+
+
+        <div class="terminal-body"></div>
+
+            <p><span id="typewriter"></span></p>
+
+            <img src="assets/images/foto.png" alt="Minha Foto">
+
+            <h1><span id="title"></span></h1>
+
+            <p><span id="description"></span></p>
+
+            <p><span id="description_2"></span></p>
+
+            <p><span id="cursor_final"></span></p>
+        
+            <div class="terminal-header"></div>
+                <div class="links">
+                    <a href="https://github.com/silvaprof" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="mailto:silvaprofessor.rj@gmail.com">e-mail</a>
+                    <a href="#projetos">Projetos</a>
+                </div>
+            </div>
+                    
+        </div>
+
+        
+
     </div>
+
+    <script src="assets/js/main.js?v=0.0.1"></script>
 </body>
 </html>

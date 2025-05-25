@@ -7,19 +7,66 @@
         body {
             background-color: #000;
             color: #fff;
-            font-family: 'Arial', sans-serif;
             display: flex;
             align-items: center;
             justify-content: center;
             min-height: 100vh;
             text-align: center;
+            font-family: consolas;
+            
         }
 
-        .container {
-            max-width: 600px;
+
+        /* Terminal */
+        .terminal {
+            background-color: #161b22;
+            border-radius: 8px;
+            width: 600px;
+            max-width: 90%;
+            box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+        }
+
+
+        .terminal-header {
+            background-color: #21262d;
+            padding: 8px 12px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            position: relative;
+        }
+
+
+
+        .terminal-header .btn {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .btn.red { background-color: #ff5f56; }
+        .btn.yellow { background-color: #ffbd2e; }
+        .btn.green { background-color: #27c93f; }
+
+        .terminal-title {
+            margin-left: auto;
+            margin-right: auto;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+
+        .terminal-body {
             padding: 20px;
+            white-space: pre-wrap;
         }
 
+
+
+
+        /* Imagem */
         img {
             width: 150px;
             border-radius: 50%;
@@ -27,16 +74,48 @@
             margin-bottom: 20px;
         }
 
+
+        /* Textos */
         h1 {
             font-size: 2.5rem;
             color: #00ffcc;
+
         }
 
         p {
             margin: 10px 0 20px;
-            color: #aaa;
-            font-size: 1.1rem;
+            color: #666;
+            font-size: 0.9rem;
         }
+
+
+
+
+        
+        /* Escrevendo na tela */
+        #typewriter, #description {
+        color: #00ffcc;
+        display: block;
+        margin-bottom: 20px;
+
+        }
+
+        .cursor , #cursor_final {
+            display: inline-block;
+            color: #00ffcc;
+            margin-left: 4px;
+            animation: blink 0.7s steps(1) infinite;
+        }
+
+        @keyframes blink {
+            50% {
+            opacity: 0;
+        }
+        }
+
+
+
+        /* Botões */
 
         .links a {
             display: inline-block;
@@ -51,4 +130,18 @@
 
         .links a:hover {
             background-color: #00bfa6;
+        }
+
+
+
+        
+        /* Fundo */
+        canvas {
+            position: fixed;
+            top: 0; 
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: -1;
+            display: block;
         }
