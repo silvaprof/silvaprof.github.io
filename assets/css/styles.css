@@ -166,4 +166,9 @@
 
         .folder {
             color: #3fb950;
+            text-decoration: none;
+        }
+
+        .folder:hover, .saida-comando a:hover {
+            text-decoration: underline;
         }
