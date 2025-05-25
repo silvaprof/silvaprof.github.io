@@ -159,7 +159,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
         }
 
 
@@ -167,6 +167,7 @@
         .folder {
             color: #3fb950;
             text-decoration: none;
+            padding: 0px;
         }
 
         .folder:hover, .saida-comando a:hover {
