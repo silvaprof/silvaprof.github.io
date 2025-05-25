@@ -1,9 +1,4 @@
-/* Estilos css */
-/* /assets/css/styles.css */
-
-
-
-       * {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -24,7 +19,7 @@
 
         /* Terminal */
         .terminal {
-            background-color: #161b22;
+            background-color: rgba(22, 27, 34, 0.85); 
             border-radius: 8px;
             width: 600px;
             max-width: 90%;
@@ -66,7 +61,6 @@
         .terminal-body {
             padding: 20px;
             white-space: pre-wrap;
-            background-color: rgba(0, 255, 204, 0.3);
         }
 
 
