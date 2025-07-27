@@ -23,7 +23,7 @@ function typeWrite(elementId, text, speed = 100, callback) {
 window.onload = () => {
     typeWrite('typewriter', 'Seja bem-vindo ao meu site!', 60, () => {
         typeWrite('title', 'José Eduardo Silva', 100, () => {
-            typeWrite('description', 'Professor de Matemática & Desenvolvedor.', 80, () => {
+            typeWrite('description', 'Professor de Matemática & Desenvolvedor de Software.', 80, () => {
                 typeWrite('description_2', '< Apaixonado por educação e tecnologia. 💻🚀 />', 80, () => {
                     typeWrite('cursor_final', '|', 80);
                 });
