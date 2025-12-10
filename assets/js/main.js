@@ -25,7 +25,7 @@ window.onload = () => {
         typeWrite('title', 'José Eduardo Silva', 100, () => {
             typeWrite('description', 'Professor de Matemática & Desenvolvedor de Software.', 80, () => {
                 typeWrite('description_2', '< Apaixonado por educação e tecnologia. 💻🚀 />', 80, () => {
-                    typeWrite('description_3', '<  E-mail: joseeduardo@sureleve.com.br', 80, () => {
+                    typeWrite('description_3', 'E-mail: joseeduardo@sureleve.com.br', 80, () => {
                         typeWrite('cursor_final', '|', 80);
                 });
             });
@@ -113,4 +113,5 @@ function ampliar(imagem) {
 function fechar() {
     document.getElementById('overlay').style.display = 'none';
 }
+
 
